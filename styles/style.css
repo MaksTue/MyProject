@@ -1,0 +1,359 @@
+ body 
+{
+  margin: 0; 
+  padding: 0;
+  font-size: 100%;
+  background: #fff;
+}
+
+
+.header{
+  height: 600px;
+  background:  url(../images/bg.jpg) no-repeat ;
+  background-size: cover;   
+}
+
+.wrap
+{
+  margin: 0 auto;
+  width: 60%;  
+}
+
+#logo{
+  float: left; 
+  margin-top: 0.82em;
+}
+
+nav {
+  float: right;  
+  margin-top: 0.82em;
+}
+
+nav > ul > li {
+  display:inline-block;  
+
+}
+
+nav > ul > li > a {
+  color: #fff;
+  display:block;  
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  text-decoration:none;
+  padding: 0.3em 0.9em;
+}
+
+.label h1 {
+    margin-left: 50%;
+    margin-top: 18%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+
+.label p {
+    margin-left: 50%;
+    margin-top: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.btn {
+    margin-left: 50%;
+    margin-top: 32%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    border: 1.3px solid #00e0d0;
+    padding: 10px;
+    border-radius: 2.5px;
+    color: #00e0d0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    transition: 0.2s ease-in;
+}
+
+.main-line {
+    height: 1px;
+    position: absolute;
+    width: 50px;
+    background-color: #00e0d0;
+    margin-left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 21%;
+}
+.dots {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 37%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+#section1{
+     margin-top: 3%;
+}
+
+.column {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 25%;
+}
+
+.about {
+    position: absolute;
+    margin-left: 50%;   
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif; 
+    color: #54515d;
+}
+
+.about p {
+   color: #817f86;
+}
+
+.btn-col {
+    
+    margin-top: 18%;
+    margin-left: 55%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    border: 1.3px solid #00e0d0;
+    padding: 10px;
+    border-radius: 2.5px;
+    color: #00e0d0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    transition: 0.2s ease-in;
+}
+
+#video {
+    height: 550px;
+    background: url(../images/bg-video.png) no-repeat ;
+    background-size: 100%;
+    margin-top: 27%;
+    
+}
+
+#icon-video {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 18%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#play-label {
+    margin-left: 50%;
+    margin-top: 24%;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+}
+
+#play-label p {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+
+#labels {
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    margin-left: 50%;
+    
+    color: #413d4b;
+    font-size: 22px;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+#labels-two {
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 3%;
+}
+
+
+
+#labels-two p {
+    font-family: 'Playfair Display', serif;
+    color: #8e8d90;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+
+.line-ex {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 5%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 1px;
+    width: 50px;
+    background-color: #c6c4c9;
+    
+}
+
+#separator {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 26%;
+    margin-left: 50%;
+}
+
+
+.text {
+     position: absolute;
+}
+
+#one {
+    min-width: 1%;
+    color: #413d4b;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: absolute; 
+    font-weight: 900;
+    margin-top: 150%;
+    margin-left: 1000%;
+}
+
+#one-p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute; 
+    margin-left: 18%;
+    margin-top: 19%;
+}
+
+ #two {
+    color: #413d4b;
+    font-size: 11px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 150%;
+    margin-left: 483%;
+   
+}
+
+#two-p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute; 
+    margin-left: 41%;
+    margin-top: 19%;
+}
+
+
+#three {
+    color: #413d4b;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 150%;
+    margin-left: 736%;
+}
+
+#three-p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute; 
+    margin-left: 64%;
+    margin-top: 19%;
+}
+
+#four {
+    color: #413d4b;
+    position: absolute;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 230%;
+    
+}
+
+#four-p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute; 
+    margin-left: 18%;
+    margin-top: 37%;
+}
+
+#five {
+    color: #413d4b;
+    position: absolute;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 400%;
+    margin-top: 330%;
+}
+
+#five-p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute; 
+    margin-left: 41%;
+    margin-top: 37%;
+}
+
+#six {
+    color: #413d4b;
+    position: absolute;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 360%;
+    margin-top: 330%;
+}
+
+#six-p {
+    color: #7a7a7a;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute; 
+    margin-left: 64%;
+    margin-top: 37%;
+}
