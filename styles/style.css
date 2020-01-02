@@ -36,14 +36,15 @@ h1,h2,h3,h4,h5,h6{
 }
 /*Nav
 =================*/
-.nav{
+.nav {
     display: flex;
+    justify-content: space-around;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
+    width: 595px;
 }
 .nav__link{
-    margin-left: 32px;
     color: #F5F5F5;
     text-decoration: none;
 }
@@ -116,5 +117,34 @@ h1,h2,h3,h4,h5,h6{
     padding: 10px 15px;
 }
 
+/*Больше, чем 720px*/
+@media (min-width: 720px) {
+    .nav {
+    display: inline-flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 595px;
+}
+.gambButton {
+    display: none;
+}
+}
+
+/*Меньше, чем 720px*/
+@media (max-width: 720px) {
+        .nav {
+    display: none;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 595px;
+}
+.gambButton {
+    display: block;
+}
+}
 
 
